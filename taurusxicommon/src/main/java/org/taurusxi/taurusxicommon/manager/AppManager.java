@@ -49,6 +49,7 @@ public class AppManager {
 
     public void attachApplication(Application application) {
         this.application = application;
+        //初始化第三方类库
         init();
 
     }
